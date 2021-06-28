@@ -1,0 +1,25 @@
+/*
+* {{ properCase name }} Slice
+*
+*/
+
+import { createSlice } from '@reduxjs/toolkit';
+
+export const initialState = {};
+
+const {{ camelCase name }}Slice = createSlice({
+  name: '{{ camelCase name }}',
+  initialState,
+  reducers: {
+    // eslint-disable-next-line no-unused-vars
+    defaultAction(state, action) {
+      /* Update your state here */
+    },
+  },
+});
+
+export const {
+  defaultAction,
+} = {{ camelCase name }}Slice.actions;
+
+export const { reducer } = {{ camelCase name }}Slice;
