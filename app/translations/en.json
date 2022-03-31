@@ -1,1 +1,7 @@
-{}
+{
+  "app.components.Button.header": "Change color!",
+  "app.features.HomePage.pageDescription": "Home Page",
+  "app.features.HomePage.pageTitle": "Home Page | Home Page",
+  "app.features.NotFoundPage.header": "This is the NotFoundPage feature!",
+  "app.features.ToDo.header": "This is the Todo feature!"
+}

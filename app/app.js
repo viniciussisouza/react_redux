@@ -28,6 +28,7 @@ import 'file-loader?name=.htaccess!./.htaccess';
 /* eslint-enable import/no-unresolved */
 
 import { HelmetProvider } from 'react-helmet-async';
+import ScopedCssBaseline from '@material-ui/core/ScopedCssBaseline';
 import configureStore from './configureStore';
 
 // Import i18n messages

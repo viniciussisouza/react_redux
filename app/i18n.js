@@ -11,6 +11,7 @@
 const { DEFAULT_LOCALE } = require('./locales');
 
 const enTranslationMessages = require('./translations/en.json');
+const ptTranslationMessages = require('./translations/pt.json');
 
 const formatTranslationMessages = (locale, messages) => {
   const defaultFormattedMessages =
@@ -29,7 +30,9 @@ const formatTranslationMessages = (locale, messages) => {
 
 const translationMessages = {
   en: formatTranslationMessages('en', enTranslationMessages),
+  pt: formatTranslationMessages('pt', ptTranslationMessages),
 };
 
 exports.formatTranslationMessages = formatTranslationMessages;
 exports.translationMessages = translationMessages;
+
